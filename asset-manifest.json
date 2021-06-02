@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6c20d9c6.chunk.css",
-    "main.js": "/portfolio/static/js/main.9aa8a493.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9aa8a493.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.f3c7d4f2.chunk.css",
+    "main.js": "/portfolio/static/js/main.da96859b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.da96859b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.97ee18ab.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.97ee18ab.js.map",
     "static/js/2.e10679d5.chunk.js": "/portfolio/static/js/2.e10679d5.chunk.js",
     "static/js/2.e10679d5.chunk.js.map": "/portfolio/static/js/2.e10679d5.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.6c20d9c6.chunk.css.map": "/portfolio/static/css/main.6c20d9c6.chunk.css.map",
+    "static/css/main.f3c7d4f2.chunk.css.map": "/portfolio/static/css/main.f3c7d4f2.chunk.css.map",
     "static/js/2.e10679d5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e10679d5.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio/static/media/Gilroy-Regular.b91b0127.ttf",
     "static/media/page1.module.css": "/portfolio/static/media/background.420da8e8.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.97ee18ab.js",
     "static/js/2.e10679d5.chunk.js",
-    "static/css/main.6c20d9c6.chunk.css",
-    "static/js/main.9aa8a493.chunk.js"
+    "static/css/main.f3c7d4f2.chunk.css",
+    "static/js/main.da96859b.chunk.js"
   ]
 }
