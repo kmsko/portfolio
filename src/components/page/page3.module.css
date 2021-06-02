@@ -62,7 +62,6 @@
 .myPhoto {
     width: 100%;
     height: inherit;
-
     object-fit: cover;
     position: absolute;
     top: 0;
