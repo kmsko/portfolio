@@ -1,0 +1,104 @@
+.wrapper_page1 {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../../assets/image/page1/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 73px;
+}
+
+.myPhoto {
+    width: 340px;
+    margin-top: 30px;
+    object-fit: cover;
+}
+
+/* Обёртка описания REACt */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wrapperCard {
+    display: block;
+    margin-top: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Список REACT */
+
+.list {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    height: 100%;
+    border-left: 4px solid rgb(0, 255, 255);
+    background-color: rgba(0, 83, 161, 0.425);
+    box-shadow: 0px 0px 28px 17px rgba(0, 255, 244, 0.45) inset;
+    border-radius: 25px 25px 0 25px;
+    opacity: 0;
+    transition: opacity 1s ease;
+    overflow: hidden;
+}
+
+.list>li {
+    display: block;
+    font-family: 'Circe Regular';
+    font-size: 24px;
+    list-style-type: none;
+    text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
+
+.list_active {
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+
+.img_logo {
+    display: block;
+    width: 500px;
+    border: 3px solid rgb(0, 255, 255);
+    border-radius: 0 25px 0 25px;
+}
+
+.img_logo:hover {
+    transition: all 1s ease;
+}
+
+@media screen and (max-width: 870px) {
+    .wrapper{
+    }
+    .myPhoto {
+        width: 268px;
+    }
+    .img_logo {
+        width: 400px
+    }
+}
+@media screen and (max-width: 674px) {
+  
+    .myPhoto {
+        width: 130px;
+    }
+    .img_logo {
+        width: 180px;
+    }
+    .list {
+        width: 150px;
+    }
+    .list>li {
+        font-size: 10px;
+    }
+}
