@@ -127,7 +127,7 @@ a {
     border-radius: 10px;
 }
 
-.menu__list_active li {
+.menu__list_active a {
     border-bottom: 1px solid white;
 }
 

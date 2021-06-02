@@ -27,9 +27,9 @@ const Page3 = (props) => {
 
 
             <div className={style.wrapper__text_titel}>
-                <button onClick={(e) => setActive("HTML")} className={` ${activeHtml ? style.button_active: ''}`}>HTML 5</button>
-                <button onClick={(e) => setActive("CSS")} className={` ${activeCss ?style.button_active: ''}`}>CSS 3</button>
-                <button onClick={(e) => setActive("MyJob")} className={` ${activeMyJob ? style.button_active: ''}`}>Мои работы</button>
+                <button onClick={(e) => setActive("HTML")} className={` ${activeHtml ? style.button_active : ''}`}>HTML 5</button>
+                <button onClick={(e) => setActive("CSS")} className={` ${activeCss ? style.button_active : ''}`}>CSS 3</button>
+                <button onClick={(e) => setActive("MyJob")} className={` ${activeMyJob ? style.button_active : ''}`}>Мои работы</button>
             </div>
 
 
@@ -49,9 +49,13 @@ const Page3 = (props) => {
                 <li>Анимация</li>
             </ul>
             <ul className={`${style.list} ${activeMyJob && style.active}`}>
-                <li> landing page </li>
-                <li> SPA </li>
-                <li> Сайт визитка </li>
+                <a href="https://kmsko.github.io/myswim/" target="_blank" rel="noopener noreferrer">landing</a>
+                <a href="https://kmsko.github.io/" target="_blank" rel="noopener noreferrer">
+                    Планшет
+                    </a>
+                <a href="https://kmsko.github.io/socialnetwokkmsko/" target="_blank" rel="noopener noreferrer">
+                    Соц сеть
+                    </a>
             </ul>
 
         </div>

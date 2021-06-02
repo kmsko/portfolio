@@ -99,13 +99,13 @@ let Header = (props) => {
                     Мои работы
                      </button>
                 <ul className={`${style.menu__list} ${myJob_Active === true && `${style.menu__list_active} ${style.menu__list_active_myJob}`}`}>
-                    <li>Визитка</li>
-                    <li>
+                    <a href="https://kmsko.github.io/myswim/" target="_blank" rel="noopener noreferrer">landing</a>
+                    <a href="https://kmsko.github.io/" target="_blank" rel="noopener noreferrer">
                         Планшет
-                    </li>
-                    <li>
+                    </a>
+                    <a href="https://kmsko.github.io/socialnetwokkmsko/" target="_blank" rel="noopener noreferrer">
                         Соц сеть
-                    </li>
+                    </a>
                 </ul>
                 <button className={style.menu__button_list} onClick={arch} onMouseEnter={(e) => { position(e) }}
                 >О себе</button>

@@ -56,11 +56,6 @@
 body {
   background-color: rgb(0, 0, 0);
   color: white;
-  font-family: 'Circe Regular';
-  font-family: 'DIN Pro Regular';
-  font-family: 'DIN Pro Bold';
-  font-family: 'Gilroy Light';
-  font-family: 'Gilroy Extra Bold';
   font-family: 'Gilroy Regular';
   cursor: default;
 }
