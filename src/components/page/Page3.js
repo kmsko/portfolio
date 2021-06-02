@@ -27,9 +27,9 @@ const Page3 = (props) => {
 
 
             <div className={style.wrapper__text_titel}>
-                <span onClick={(e) => setActive("HTML")} className={` ${activeHtml ? style.span_active: ''}`}>HTML 5</span>
-                <span onClick={(e) => setActive("CSS")} className={` ${activeCss ?style.span_active: ''}`}>CSS 3</span>
-                <span onClick={(e) => setActive("MyJob")} className={` ${activeMyJob ? style.span_active: ''}`}>Мои работы</span>
+                <button onClick={(e) => setActive("HTML")} className={` ${activeHtml ? style.button_active: ''}`}>HTML 5</button>
+                <button onClick={(e) => setActive("CSS")} className={` ${activeCss ?style.button_active: ''}`}>CSS 3</button>
+                <button onClick={(e) => setActive("MyJob")} className={` ${activeMyJob ? style.button_active: ''}`}>Мои работы</button>
             </div>
 
 

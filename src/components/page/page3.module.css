@@ -23,12 +23,11 @@
     align-items: center;
     justify-content: space-around;
     font-family: 'DIN Pro Bold';
-    font-size: 70px;
     cursor: pointer;
     text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
 }
 
-.wrapper__text_titel>span {
+.wrapper__text_titel button {
     border: 2px solid gold;
     padding: 10px;
     margin-bottom: 10px;
@@ -36,9 +35,11 @@
     background-color: rgba(128, 128, 128, 0.432);
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     outline: none;
+    font-size: 70px;
+
 }
 
-.span_active {
+.button_active {
     color: hotpink;
 }
 
@@ -81,8 +82,10 @@
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
-        font-size: 38px;
         margin-top: 15px;
+    }
+    .wrapper__text_titel button{
+        font-size: 38px;
     }
     .list {
         width: 100%;
@@ -97,7 +100,7 @@
         height: 338px;
     }
 
-    .wrapper__text_titel {
+    .wrapper__text_titel button {
         font-size: 21px;
     }
     .list>li {
