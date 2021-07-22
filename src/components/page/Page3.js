@@ -49,6 +49,7 @@ const Page3 = (props) => {
                 <li>Анимация</li>
             </ul>
             <ul className={`${style.list} ${activeMyJob && style.active}`}>
+                <a href="https://kmsko.github.io/book" target="_blank" rel="noopener noreferrer">Search For Book</a>
                 <a href="https://kmsko.github.io/myswim/" target="_blank" rel="noopener noreferrer">landing</a>
                 <a href="https://kmsko.github.io/" target="_blank" rel="noopener noreferrer">
                     Планшет

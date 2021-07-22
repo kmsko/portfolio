@@ -8,16 +8,11 @@ import { detailsAC } from '../../redux/header-page'
 import myPhoto from '../../assets/image/myPhoto.png'
 
 let Page1 = (props) => {
-
- 
-
     return (
         <div className={style.wrapper_page1}>
-            {/* Моё фото */}
             <img className={style.myPhoto} src={myPhoto} alt="" />
             
             <div className={style.wrapper}>
-                {/* logo react */}
                 <div
                     onMouseEnter={(e) => props.detailsAC(1)}
                     onMouseLeave={(e) => props.detailsAC(false)}
@@ -34,7 +29,6 @@ let Page1 = (props) => {
                         <li>useState useEffect</li>
                     </ul>
                 </div>
-                {/* logo Redux */}
                 <div
                     onMouseEnter={(e) => props.detailsAC(2)}
                     onMouseLeave={(e) => props.detailsAC(false)}
